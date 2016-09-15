@@ -1,0 +1,5 @@
+select recipes.name, tags.tag from recipes join recipe_tags on recipe_tags.recipe_id = recipes.id join tags on recipe_tags.tag_id = tags.id where recipes.name = 'Fried Chicken';   
+
+
+
+select recipes.name, steps.step from recipes join steps on steps.recipe_id = recipes.id where recipes.name = 'Steak'; 

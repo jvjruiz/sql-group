@@ -1,0 +1,14 @@
+ id |   tag   
+----+---------
+  1 | meat
+  2 | chicken
+  3 | fried
+  4 | beef
+  5 | grilled
+  6 | heat
+  7 | noodles
+  8 | boiled
+  9 | oil
+ 10 | soup
+(10 rows)
+
