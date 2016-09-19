@@ -1,7 +1,9 @@
+create database recipify_api;
+use recipify_api
 create table if not exists recipes (
     id serial primary key,
     name text not null,
-    description text not null
+    description text
 );
 
 create table if not exists tags (
